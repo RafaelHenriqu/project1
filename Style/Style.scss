@@ -1,0 +1,188 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    transition: 500ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    background-color: #191920;
+    height: 5.1vh;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    box-shadow: 0px 0px 100px 50px #191920;
+    z-index: 1000;
+}
+ 
+
+ 
+ 
+  
+ul{
+
+    display: inline-flex;
+    margin: auto;
+    color: #fff;
+    list-style: none;
+    font-size: 3ch;
+    text-indent: 1vh;
+    text-align: center;
+    z-index: 1000;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: #1d1d24;
+}
+#Home{
+    background-image: url("../img/wallpaper1.jpg");
+    height: 100vh;   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow:  inset 0px 0px 100px 50px #041B33;
+}
+
+
+#Inicio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+#Projetos{
+    background-image: url("../img/Wallpaper2V2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 100px 100px #171717;
+    box-shadow: inset 1px 1px 100px 10px #171717;
+    height: 95vh;
+    
+    
+}
+
+.TT{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #8e4bec;  
+text-shadow: 1px 1px 25px #6a17de;
+ &:hover{
+    color: #ef5d49;
+    text-shadow: 1px 1px 25px #f14029;
+    
+ }
+}
+#Inicio{
+    font-size: 3vh;
+}
+#Inicio:hover{
+    font-size: 4.2vh;
+
+}
+
+#GitHub{
+ 
+    background-image: url("../img/icon/github.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 10px;
+    position: relative;
+    top: 17vh;
+    margin: auto;
+   
+    
+}
+
+
+#Projects{
+    color: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    font-size: 4.5vh;
+    position: relative;
+    top: 14vh;
+    
+}
+hr{
+    width: 25%;
+    height: .7vh;
+    background-color: #0796D8;
+    margin: auto;
+    position: relative;
+    top: 15vh;
+}
+hr:hover{
+    box-shadow: 0px 0px 100px 5px #0893D4;
+}
+
+#GitHub:hover{
+    height: 20vh;
+    width: 25vh;
+}
+#Projects:hover{
+    text-shadow: 0px 0px 10px  rgb(8, 151, 212);;
+}
+@media screen and (max-width:500px) {
+    hr{
+        width: 100%;
+    }
+    #Projects{
+        width: 100%;
+    }
+    ul{
+        font-size: 3ch;
+        display: block;
+    }
+    header{
+       box-shadow: 0px 0px 100px 100px #191920;
+    }
+    #Projetos{
+        height: 50vh;
+    }
+}
